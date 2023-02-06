@@ -1,0 +1,122 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  color: black;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  padding-top: 46px;
+  background-color: #f1f1f1;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  margin-bottom: 76px;
+}
+
+.logo {
+  position: relative;
+  padding: 0 12px 3 0;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  color: black;
+}
+
+.logo::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  background-color: #fda300;
+  border-radius: 50%;
+}
+
+/* Nav */
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link.active {
+  color: #606060;
+}
+
+.nav-link:hover {
+  color: #606060;
+}
+
+/* Hedaer content */
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-heding {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 66px;
+}
+
+.header-content {
+  margin-top: 124px;
+  max-width: 500px;
+}
+.header-content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2;
+}
+
+/* Service */
+
+.services {
+  padding: 90px 0;
+}
+
+.services-row {
+  display: flex;
+  column-gap: 30px;
+}
+.service-card {
+}
+.service-card-img {
+  margin-bottom: 30px;
+}
+.service-card-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-transform: uppercase;
+}
+.service-card p {
+  line-height: 2;
+}
